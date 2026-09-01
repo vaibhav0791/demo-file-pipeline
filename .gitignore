@@ -1,0 +1,27 @@
+# Environment & Secrets
+.env
+!.env.example
+
+# Local Database
+*.db
+*.sqlite
+*.sqlite3
+pipeline.db
+
+# Output & Generated Data
+output/
+*.csv
+response_*.json
+error file.txt
+error*.txt
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store

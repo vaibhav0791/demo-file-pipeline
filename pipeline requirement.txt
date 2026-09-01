@@ -1,0 +1,4 @@
+Data Repetition: Data must be unique every time it is fetched; no data should ever be repeated throughout the entire pipeline run. 
+Data Duplication: Each specific dataset must contain unique data for every target protein. 
+Data Hallucination: There must be no random data entries in any dataset; all data must originate from its respective source. 
+Batch Limits: A maximum of 80 target proteins can be fetched at one time. Each protein must have at least 25 rows of fully sanitized data.
